@@ -5,9 +5,11 @@ import './App.css'
 
 function App() {
 
+  const name = "Jessi Kristin";
+
   return (
    <div>
-    <h1>hello react</h1>
+    <h1>hello, {name}!</h1>
     <p>Aku lagi belajar react pertama kali</p>
    </div>
   );
